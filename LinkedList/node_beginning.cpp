@@ -1,6 +1,8 @@
 // inserting a node in the beginning of the linked list
+
 #include <iostream>
 #include <stdlib.h>
+using namespace std;
 
 struct Node{
 	int data;
@@ -30,7 +32,7 @@ void print(){
 int main(){
 	int n,i,c;
 	head = NULL;
-	printf("Enter size of linkedlist:");
+	cout << "ENter size of the linekdlist";
 	scanf("%d",&n);
 	printf("Enter the nos: ");
 	for(i=0;i<n;i++){
