@@ -1,8 +1,9 @@
 // inserting a node in the beginning of the linked list
 
-#include <iostream>
+
+#include <stdio.h>
 #include <stdlib.h>
-using namespace std;
+
 
 struct Node{
 	int data;

@@ -36,7 +36,6 @@ void Insert(int data)
 	traverse->next=temp1;
 	// temp1->next=NULL;
 }
-
 void Delete(int n){
 	struct Node* preNode = head;
 	if(n==1){
@@ -47,7 +46,7 @@ void Delete(int n){
 	int i;
 	for(i=0;i<n-2;i++){
 		preNode = preNode->next;
-		//deleteTemp points to the n-1th node, which is the node before the target node
+		//preNode points to the n-1th node, which is the node before the target node
 	}
 	struct Node* tempNode = preNode->next; // new pointer tempNode points to the address of (nth)node
 	preNode->next = tempNode->next; // now the (n-1)th node points to the element after nth node i.e., (n+1)th node
